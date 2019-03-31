@@ -1,0 +1,75 @@
+body {
+  background: #1F1F1F;
+}
+
+.homeContainer {
+  background: #2D9BD5;
+  height: 7vh;
+  display: flex;
+  justify-content: baseline;
+  padding-left: 7%;
+}
+.home {
+  font-size: 14pt;
+  
+}
+
+
+
+.card{
+  background: #E8E8E8;
+  height: 40vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.middleContainer {
+  display: flex;
+  width: 25vw;
+  justify-content: space-evenly;
+}
+
+.buttonsContainer {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.edit, .delete , .new {
+  border-radius: 10px;
+  background: #2D9BD5;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 12pt;
+  padding: 6px;
+  cursor: pointer;
+}
+.previous, .next{
+  color: white;
+  background: none;
+  border: none;
+  font-weight: 900;
+  font-size: 12pt;
+  cursor: pointer;
+}
+
+.counting{
+  font-size: 16pt;
+  font-weight: 900;
+}
+.name {
+  border-bottom: #2D9BD5 1px solid;
+  font-size: 18pt;
+  font-weight: 800;
+  
+}
