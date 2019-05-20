@@ -13,7 +13,7 @@ class App extends Component {
     }
     this.handleNext = this.handleNext.bind(this)
     this.handlePrev = this.handlePrev.bind(this)
-    this.handleDelete = this.handleDelete.bind(this)
+
   }
 
   handleNext(){
@@ -35,20 +35,14 @@ class App extends Component {
    }
   }
 
-  handleDelete(){
-    this.setState({
-      count: this.state.count - 1
-  
-    })
-  }
   
   render() {
    
     if(this.state.count >=0){
     return (
-      <div>
-      <Home />
       <div className="App">
+      <Home />
+      <div>
      
        
         <div className='card'>
@@ -67,11 +61,7 @@ class App extends Component {
         <div className="App">
       
           <div className='card'>
-        
-          
-        
           </div>
-          <Buttons next={this.handleNext} prev={this.handlePrev} delete={this.handleDelete}/>
         </div>
        </div>
       )
