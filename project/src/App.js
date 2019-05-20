@@ -5,7 +5,6 @@ import Buttons from './components/Buttons'
 import Counter from './components/Counter'
 import Person from './components/Person'
 import data from './components/data'
-console.log(data)
 class App extends Component {
   constructor(){
     super()
@@ -67,7 +66,6 @@ class App extends Component {
         <Home />
         <div className="App">
       
-         
           <div className='card'>
         
           
@@ -82,5 +80,3 @@ class App extends Component {
 }
 
 export default App;
-
-
